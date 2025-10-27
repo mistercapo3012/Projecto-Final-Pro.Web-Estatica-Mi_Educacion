@@ -1,0 +1,7 @@
+un sitio con la misma estructura con imagenes de las aulas talvez y que tenga varias partes de texto, la del formulario tener un espacio de sugerencias, tipo wiqui y ideas mias, con ejemplos de entras escuelas o formas de enseñar, auto critica de mi comportamiento o el compromiso de mis compañeros.
+tal vez algo con js que puedas subir un archivo de tu prosefor y chatgpt te diga si esta bueno o no, seria confiar mucho en al AI pero no se me ocurre algo realmente interesante que pueda tener la paguina, tmb podria tener una paguina donde se cuente la hitoria de la epet y la educacion. 
+critic de los estudiantes y los profesores de caa uno, los dos lados de la moneda, que quisieran cambiar y que estan haciendo para eso,
+Objetivo de hoy:
+plantilla bonita para todas las paguinas y estructura echa, con colores azules y blancos sueves, listo para rellenar de informacion e imagenes
+Resto de los dias:
+implementacion de js y entendimiento de lo minimo, con funcionalidades, solo animaciones simples

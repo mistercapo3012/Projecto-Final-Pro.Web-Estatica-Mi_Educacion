@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta - Educación y Mi Escuela</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+    <h1>Educación y Mi Escuela</h1>
+    <nav>
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="opiniones.html">Opiniones</a></li>
+        <li><a href="encuesta.html" class="activo">Encuesta</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="animacion.html">Animación</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+    <h2>Encuesta sobre la educación</h2>
+    <form id="encuestaForm">
+        <label>¿Te sentís escuchado en clase?</label>
+        <select id="pregunta1">
+        <option value="">Seleccioná una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+        </select>
+
+        <div id="preguntaExtra" style="display:none;">
+        <label>¿Qué te gustaría que cambie?</label>
+        <input type="text" id="respuestaExtra" placeholder="Tu respuesta...">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </main>
+
+    <footer>
+    <p>© 2025 - Sitio creado por Gael Rodríguez</p>
+    </footer>
+</body>
+</html>

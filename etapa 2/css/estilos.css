@@ -1,0 +1,107 @@
+/* ======== RESET BÁSICO ======== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* ======== CONFIGURACIÓN GENERAL ======== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f2f2f2; /* fondo azul oscuro */
+  color: #6495ED; /* color principal del texto */
+}
+
+/* ======== HEADER ======== */
+header {
+  background-color: #113E92;
+  color: white;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+/* ======== NAV ======== */
+nav ul {
+  font-size: 1.5em;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #96B6F3;
+}
+
+nav a.activo {
+  text-decoration: underline;
+}
+
+/* ======== CONTENIDO LIBRE ======== */
+main {
+  flex: 1;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: #113E92;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 1em;
+  margin-top: auto;
+}
+.div2 img {
+  display: flex;
+  height: 60%;
+  width: 400px;
+  padding: 15px;
+  color: #6495ED;
+    line-height: 1.6;
+}
