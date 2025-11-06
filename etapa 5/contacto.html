@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Educación y Mi Escuela</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header>
+<h1>Educación y Mi Escuela</h1>
+<nav>
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="about.html">Nosotros</a></li>
+    <li><a href="opiniones.html">Alumnos</a></li>
+    <li><a href="opiProfes.html">Profes</a></li>
+    <li><a href="encuesta.html">Encuesta</a></li>
+    <li><a href="contacto.html" class="activo">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+
+<form id="contactoForm">
+    <h2>Formulario de contacto</h2>
+
+    <p id="estado"></p>
+
+    <label>Nombre completo</label>
+    <input type="text" id="nombre">
+
+    <label>Correo electrónico</label>
+    <input type="email" id="correo">
+
+    <label>Asunto</label>
+    <input type="text" id="asunto">
+
+    <label>Mensaje</label>
+    <textarea id="mensaje" placeholder="Acá podés dejar tu comentario, puede ser una sugerencia, una queja o una opinión, o tu perspectiva completa sobre la vida adolescente y cómo la escuela es completamente fundamental para la misma"></textarea>
+    <span id="contador">0/500</span>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</main>
+
+<footer>
+<p>© 2025 - Sitio creado por Gael Rodríguez</p>
+</footer>
+</body>
+</html>

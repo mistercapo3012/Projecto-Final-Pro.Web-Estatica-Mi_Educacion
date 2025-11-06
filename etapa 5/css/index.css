@@ -1,0 +1,93 @@
+/* ======== INDEX LAYOUT ======== */
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* ======== CONTENEDOR TEXTO ======== */
+.texto {
+    width: 60%;
+    max-width: 900px;
+}
+
+.texto h2 {
+    font-size: 3em;
+    color: #6495ED;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    color: #6495ED;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* ======== IMÁGENES A LA DERECHA ======== */
+.lateral-imagenes {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: sticky;
+    top: 120px;
+}
+
+.lateral-imagenes img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
+}
+
+.lateral-imagenes img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* 🖥️ NOTEBOOK / PANTALLAS GRANDES (Texto ancho + imágenes abajo en fila) */
+@media (min-width: 1201px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .texto {
+        width: 100%;
+        max-width: 1200px;
+        text-align: center;
+    }
+
+    .lateral-imagenes {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        position: static;
+    }
+
+    .lateral-imagenes img {
+        width: 30%;
+        max-width: 380px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .texto h2 {
+        font-size: 2.4em;
+    }
+
+    .texto p {
+        font-size: 1.1em;
+    }
+}
