@@ -31,6 +31,9 @@ El repositorio se conforma de distintas etapas del proyecto que se dividen en:
 
   1- Carpeta del boceto de la paguina, y el archivo .docx explicando la idea inicial del proyecto y su objetivo
 
-  2- Etapa 2 y 3: esta ya tiene los archivos  
+  2- Etapa 2 y 3: esta ya tiene los archivos creados y enlasados con el css, con una estrucctura ya creada
 
+  3- Etapa 4 y 5: ya con una mejor vista del sitio, con mejoras y modificaciones en todos los archivos y eliminacion de algunos
+
+  5. Etapa 5: sitio terminado, en su version final.
 
